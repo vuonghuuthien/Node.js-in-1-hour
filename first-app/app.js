@@ -1,4 +1,4 @@
-var logger = require('./logger.js');
+const log = require('./logger.js');
 
 // console.log(logger); // { log: [Function: log] }
-logger.log('message');
+log('message');
